@@ -7,7 +7,7 @@
 quit = ""
 inputList = []
 while not quit:
-	userData = raw_input("Enter a unique data string (Q to quit): ")
+	userData = input("Enter a unique data string (Q to quit): ")
 	userData = str(userData)
 	if str.upper(userData) == "Q":
 		break
